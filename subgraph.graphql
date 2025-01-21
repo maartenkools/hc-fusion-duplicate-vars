@@ -1,0 +1,7 @@
+﻿type Query {
+    items(groupId: String!): [Item!]!
+}
+
+type Item {
+    values(groupId: String!): [String!]!   
+}
